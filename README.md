@@ -105,28 +105,5 @@ http://localhost:3000
 **Frontend**
 - `npm start` – run React dev server
 
-## Environment Variables
-Backend `.env`:
-```
-PORT=5000
-NODE_ENV=development
-DB_HOST=localhost
-DB_PORT=3306
-DB_NAME=school_db
-DB_USER=root
-DB_PASSWORD=your_password
-JWT_SECRET=super_secret_jwt
-GOOGLE_CLIENT_ID=your_google_client_id
-GOOGLE_CLIENT_SECRET=your_google_client_secret
-GOOGLE_CALLBACK_URL=http://localhost:5000/api/auth/google/callback
-FRONTEND_URL=http://localhost:3000
-```
-
-Frontend `.env`:
-```
-REACT_APP_API_URL=http://localhost:5000
-REACT_APP_OAUTH_URL=http://localhost:5000/api/auth/google
-```
-
 ## License
 MIT (or replace with your preferred license)
